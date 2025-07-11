@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagens que se ajustam de acordo com o tamanho da tela</title>
+</head>
+<body>
+
+    <h1>Teste de imagens</h1>
+    <picture>
+        <source media="(max-width:650px )" srcset="imagens/300px.jpg" type="image/jpg">
+        <source media="(max-width:1250px)" srcset="imagens/600px.jpg" type="image/jpg">
+    <img src="imagens/1200px.jpg" alt="imagen tela grande">
+    </picture>
+    
+    <h1>Rprodução de audio</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="musica/Eagle Rock - Wes Hutchinson.mp3" type="audio/mp3">
+    </audio>
+
+    <h1>teste de video</h1>
+    <video controls width="600">
+        <source src="videos/video.mp4" type="videos/mp3">
+    </video>
+
+    <h1>Videos do youtube</h1>
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/rx8EhkXk9zs?si=fAOjbwNLsxip6zXN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
