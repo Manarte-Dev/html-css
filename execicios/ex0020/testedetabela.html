@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira tabela</title>
+    <style>
+        caption{
+            background-color: gray;
+        }
+        table{
+            border: 1px solid black;
+            width: 400px;
+            border-collapse: collapse;
+            height: 300px;
+        }
+        tbody tr:nth-child(2n){
+            background-color: rgba(0, 0, 0, 0.39);
+            color:white;
+        }
+        th{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border: 1px solid black;
+        }
+        thead{
+            position: sticky;
+            top: -1px;
+
+        }
+        td,tr{
+            border: 1px solid black;
+        }
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Populaçao Brasileira</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col"style="width:100px">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr><td>Minas Gerais</td>
+            <td class="num">21.168.791</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">17.264.943</td>
+        </tr>
+        <tr>
+            <td>Bahia</td>
+            <td class="num">14.873.064</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td class="num"><strong>98479.225</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda harum, voluptas velit suscipit temporibus odio iste illo fuga quisquam? Nulla aspernatur perferendis laboriosam, cumque temporibus voluptas quos quibusdam quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit, laudantium officia ducimus fugit harum, dignissimos, dolorem cupiditate at temporibus dolore vel veritatis amet itaque sed cumque accusamus. Quis, necessitatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum qui fugiat, accusamus asperiores ratione aspernatur veniam voluptate incidunt atque quibusdam repudiandae minima sequi dolorum assumenda ab quam velit voluptatem suscipit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda harum, voluptas velit suscipit temporibus odio iste illo fuga quisquam? Nulla aspernatur perferendis laboriosam, cumque temporibus voluptas quos quibusdam quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit, laudantium officia ducimus fugit harum, dignissimos, dolorem cupiditate at temporibus dolore vel veritatis amet itaque sed cumque accusamus. Quis, necessitatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum qui fugiat, accusamus asperiores ratione aspernatur veniam voluptate incidunt atque quibusdam repudiandae minima sequi dolorum assumenda ab quam velit voluptatem suscipit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda harum, voluptas velit suscipit temporibus odio iste illo fuga quisquam? Nulla aspernatur perferendis laboriosam, cumque temporibus voluptas quos quibusdam quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit, laudantium officia ducimus fugit harum, dignissimos, dolorem cupiditate at temporibus dolore vel veritatis amet itaque sed cumque accusamus. Quis, necessitatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum qui fugiat, accusamus asperiores ratione aspernatur veniam voluptate incidunt atque quibusdam repudiandae minima sequi dolorum assumenda ab quam velit voluptatem suscipit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda harum, voluptas velit suscipit temporibus odio iste illo fuga quisquam? Nulla aspernatur perferendis laboriosam, cumque temporibus voluptas quos quibusdam quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit, laudantium officia ducimus fugit harum, dignissimos, dolorem cupiditate at temporibus dolore vel veritatis amet itaque sed cumque accusamus. Quis, necessitatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum qui fugiat, accusamus asperiores ratione aspernatur veniam voluptate incidunt atque quibusdam repudiandae minima sequi dolorum assumenda ab quam velit voluptatem suscipit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda harum, voluptas velit suscipit temporibus odio iste illo fuga quisquam? Nulla aspernatur perferendis laboriosam, cumque temporibus voluptas quos quibusdam quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit, laudantium officia ducimus fugit harum, dignissimos, dolorem cupiditate at temporibus dolore vel veritatis amet itaque sed cumque accusamus. Quis, necessitatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum qui fugiat, accusamus asperiores ratione aspernatur veniam voluptate incidunt atque quibusdam repudiandae minima sequi dolorum assumenda ab quam velit voluptatem suscipit?</p>
+
+</body>
+</html>
