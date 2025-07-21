@@ -27,7 +27,7 @@ section.flex-content{
     background-color: gray;
     
     flex-flow: column nowrap;
-    display: grid;
+    display:flex;
 }
 article.texto-media{
     display: flex;
